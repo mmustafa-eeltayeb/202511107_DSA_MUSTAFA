@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Single function to print congratulations
+void sayCongratulations(string name) {
+    cout << "Congratulations " << name << endl;
+}
+
+int main() {
+    string userName;
+    cout << "Enter name: ";
+    cin >> userName;
+    sayCongratulations(userName);
+    return 0;
+}
